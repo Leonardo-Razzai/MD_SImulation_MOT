@@ -88,7 +88,7 @@ If the data resides on a remote high-performance computing (HPC) cluster, you mu
 Then, add the **`download`** flag to the command line:
 
 ```bash
-python post_processor.py 100 0.01 200.0 0.001 download
+python mot_postprocessing.py 100 0.01 200.0 0.001 download
 ```
 
 This command will:
